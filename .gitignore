@@ -3,3 +3,7 @@ venv/
 *.pyc
 .pytest_cache/
 tests/screenshots/
+*.PDF
+*.pdf
+*.png
+*.jpg
