@@ -8,7 +8,7 @@ BASE_URL = "http://localhost:8888"
 
 @pytest.fixture(autouse=True)
 def goto_page(page: Page):
-    page.goto(f"{BASE_URL}/web/index.html")
+    page.goto(f"{BASE_URL}/docs/index.html")
     page.wait_for_load_state("networkidle")
 
 
